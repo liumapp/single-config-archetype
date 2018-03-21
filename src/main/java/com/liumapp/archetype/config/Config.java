@@ -7,7 +7,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 /**
  * @author liumapp
- * @file Eureka.java
+ * @file Config.java
  * @email liumapp.com@gmail.com
  * @homepage http://www.liumapp.com
  * @date 3/21/18
@@ -15,10 +15,10 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @EnableDiscoveryClient
 @EnableConfigServer
 @SpringBootApplication
-public class Eureka {
+public class Config {
 
     public static void main(String[] args) {
-        SpringApplication.run(Eureka.class , args);
+        SpringApplication.run(Config.class , args);
     }
 
 }
