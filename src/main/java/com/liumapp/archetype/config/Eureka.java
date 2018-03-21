@@ -2,7 +2,8 @@ package com.liumapp.archetype.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.config.server.EnableConfigServer;
 
 /**
  * @author liumapp
@@ -11,7 +12,8 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  * @homepage http://www.liumapp.com
  * @date 3/21/18
  */
-@EnableEurekaServer
+@EnableDiscoveryClient
+@EnableConfigServer
 @SpringBootApplication
 public class Eureka {
 
