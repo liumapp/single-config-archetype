@@ -5,6 +5,6 @@ A single Spring Cloud Config archetype project .
 
 * mvn archetype:create-from-project
 
-* cd target/generated-source/archetype
+* cd target/generated-sources/archetype
 
 * mvn install 
